@@ -48,5 +48,5 @@ def process_videos_in_folder(folder_path):
         print(f"Transcription completed for {video_file}. Output saved to {transcript_file}")
 
 # Path to the folder containing the video files
-folder_path = '/Users/morgan/workspace/whisper-vid2txt/videos'  # Replace with your folder path
+folder_path = './videos'  # Replace with your folder path
 process_videos_in_folder(folder_path)
